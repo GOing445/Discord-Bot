@@ -171,7 +171,7 @@ client.on('message', message => {
     if(data.startsWith("!n.")){
         if(message.author.bot === false){
             if(commandIs("help",message)){
-                message.channel.sendMessage("귀찮아서 help안만듬");
+                message.channel.sendMessage("귀찮아서 help안만듬 Testing");
             }
             else if(commandIs("fuckyou",message)){
                 message.reply("Fuck You to Mr." + message.author.username);
