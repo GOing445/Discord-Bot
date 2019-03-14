@@ -361,5 +361,5 @@ client.on('message', message => {
         message.reply("Shut up " + message.author.username);
     }
 });
-
-client.login('Mzc2MDQ2NTI1NzAyMzQwNjA4.DN4srQ.FDU15j3Nr2tLWKLiX5tuHfnxxlY');
+//user bot info here
+client.login('?????????????');
